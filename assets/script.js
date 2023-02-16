@@ -55,6 +55,8 @@ botaoGerar.addEventListener('click', () => {
 })
 
 senhaGerada.addEventListener('click', () => {
-    navigator.clipboard.writeText(senhaGerada.textContent)
-    senhaGerada.innerHTML = 'Senha Copiada'
+    if (senhaGerada.textContent != "Senha Copiada") {
+        navigator.clipboard.writeText(senhaGerada.textContent)
+        senhaGerada.innerHTML = 'Senha Copiada'
+    }
 })
