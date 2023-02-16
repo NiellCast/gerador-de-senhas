@@ -88,7 +88,7 @@ input[type="button"]:hover {
 #senha-gerada {
     border: 1px solid rgb(0, 128, 255);
     cursor: pointer;
-    display: none;
+    height: 20px;
 }
 
 footer {
