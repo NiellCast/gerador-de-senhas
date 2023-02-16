@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <main>
+        <section id="titulo">
+            <h1>GERADOR DE SENHAS</h1>
+        </section>
+
+        <section id="user-inputs">
+            <div class="user-view">
+                <h2>Tamanho da senha:</h2>
+                <p><span id="numero-do-range">4</span> caracteres</p>
+            </div>
+
+            <input type="range" name="tamanho" id="tamanho-da-senha" min="4" max="40" step="1" value="4">
+
+            <input type="button" value="GERAR SENHA" id="btn-gerador">
+        </section>
+
+        <section id="sessao-senha">
+            <p id="senha-gerada"></p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://linktr.ee/niellcast" rel="external" target="_blank">@Niell</a>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
