@@ -7,25 +7,32 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Gerador de Senhas</title>
 </head>
-<body>
-    <main>
-        <section id="titulo">
+<body class="coluna-centralizada">
+    <main class="coluna-centralizada">
+        <section class="linha-centralizada tamanho-maximo">
             <h1>GERADOR DE SENHAS</h1>
         </section>
 
-        <section id="user-inputs">
-            <div class="user-view">
-                <h2>Tamanho da senha:</h2>
-                <p><span id="numero-do-range">4</span> caracteres</p>
-            </div>
+        <section class="coluna-centralizada tamanho-maximo">
+            <form action="#">
+                <div class="user-view coluna-centralizada tamanho-maximo">
+                    <h2>Tamanho da senha:</h2>
+                    <p><span id="numero-do-range">4</span> caracteres</p>
+                    <input type="range" name="tamanho" id="tamanho-da-senha" min="4" max="40" step="1" value="4">
+                </div>
 
-            <input type="range" name="tamanho" id="tamanho-da-senha" min="4" max="40" step="1" value="4">
-
-            <input type="button" value="GERAR SENHA" id="btn-gerador">
+                <div class="opcoes-adicionais linha-centralizada">
+                    <input type="radio" name="tipo" id="c-letras" checked>
+                    <label for="c-letras">Qualquer Caracter</label>
+                    <input type="radio" name="tipo" id="c-numeros">
+                    <label for="c-numeros">Numérica</label>
+                </div>
+                <input type="button" value="GERAR SENHA" id="btn-gerador">
+            </form>
         </section>
 
-        <section id="sessao-senha">
-            <p id="senha-gerada"></p>
+        <section id="sessao-senha" class="linha-centralizada tamanho-maximo">
+            <p id="senha-gerada" class="tamanho-maximo"></p>
         </section>
     </main>
 
