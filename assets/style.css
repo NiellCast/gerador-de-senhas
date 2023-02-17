@@ -37,6 +37,10 @@ section {
     flex: 1 1 0;
 }
 
+h1 {
+    margin-top: 10px;
+}
+
 h2 {
     font-size: 20px;
 }
@@ -87,18 +91,17 @@ input[type="button"]:hover {
 }
 
 #sessao-senha {
+    border: 1px solid rgb(0, 128, 255);
     padding: 10px;
     color: rgb(0, 128, 255);
-    display: flex;
-    align-items: flex-end;
 }
 
 #senha-gerada {
-    border: 1px solid rgb(0, 128, 255);
     cursor: pointer;
-    margin-top: 10px;
-    height: 75%;
-    font-size: 35px;
+}
+
+.espacamento {
+    padding: 10px;
 }
 
 footer {
