@@ -17,6 +17,7 @@
 <h2>Funcionalidades</h2>
 
 <ul>
+  <li>Senhas de 4 a 40 caracteres.
   <li>Senhas com letras, números e caracteres especiais.
   <li>Senhas numéricas.
 </ul>
