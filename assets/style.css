@@ -89,6 +89,8 @@ input[type="button"]:hover {
 #sessao-senha {
     padding: 10px;
     color: rgb(0, 128, 255);
+    display: flex;
+    align-items: flex-end;
 }
 
 #senha-gerada {
