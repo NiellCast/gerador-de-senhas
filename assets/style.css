@@ -26,8 +26,15 @@ main {
     width: 90%;
     height: 90%;
     color: whitesmoke;
-    padding: 10px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    flex: 1 1 0;
 }
 
 h2 {
@@ -87,7 +94,9 @@ input[type="button"]:hover {
 #senha-gerada {
     border: 1px solid rgb(0, 128, 255);
     cursor: pointer;
-    height: 20px;
+    margin-top: 10px;
+    height: 75%;
+    font-size: 35px;
 }
 
 footer {

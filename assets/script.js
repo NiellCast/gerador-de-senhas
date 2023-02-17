@@ -51,7 +51,6 @@ tamanhoEscolhido.addEventListener('pointermove', () => {
 botaoGerar.addEventListener('click', () => {
     senhaGerada.innerHTML = gerador(tamanhoEscolhido.value, letras.checked, numeros.checked)
     senhaGerada.style.display = 'flex'
-    senhaGerada.classList.add('linha-centralizada')
 })
 
 senhaGerada.addEventListener('click', () => {
