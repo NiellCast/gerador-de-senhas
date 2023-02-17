@@ -37,16 +37,12 @@ section {
     flex: 1 1 0;
 }
 
-h1 {
-    margin-top: 10px;
-}
-
 h2 {
     font-size: 20px;
 }
 
 .user-view {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .user-view > p {
